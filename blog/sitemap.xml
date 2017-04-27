@@ -5,34 +5,55 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-04-27T19:49:27-00:00</lastmod>
+<lastmod>2017-04-27T20:04:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-04-27T19:49:27-00:00</lastmod>
+<lastmod>2017-04-27T20:04:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-04-27T19:49:27-00:00</lastmod>
+<lastmod>2017-04-27T20:04:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-04-27T19:49:27-00:00</lastmod>
+<lastmod>2017-04-27T20:04:51-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./.html</loc>
+<loc>./she-ding-fossil-http-zhi-ling.html</loc>
+<lastmod>2017-04-12T12:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./jian-li-fossil-scm-server.html</loc>
+<lastmod>2017-03-26T12:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./an-zhuang-fossil-scm.html</loc>
+<lastmod>2017-03-19T12:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./jian-li-nginx.html</loc>
 <lastmod>2017-03-12T12:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -40,21 +61,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/cao-zuo-ying-pian.html</loc>
-<lastmod>2017-03-12T12:00:00+08:06</lastmod>
+<lastmod>2017-04-12T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/nginx.html</loc>
-<lastmod>2017-03-12T12:00:00+08:06</lastmod>
+<lastmod>2017-04-12T12:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/stunnel4.html</loc>
+<lastmod>2017-03-19T12:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/server.html</loc>
+<lastmod>2017-03-26T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40523122.html</loc>
-<lastmod>2017-03-12T12:00:00+08:06</lastmod>
+<lastmod>2017-04-12T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
