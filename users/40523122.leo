@@ -75,6 +75,8 @@
 <v t="leo.20170427195527.1"><vh>@edit 2202.md </vh></v>
 <v t="leo.20170427195527.2"><vh>@edit 2203.md </vh></v>
 <v t="leo.20170427195527.3"><vh>@edit 2204.md </vh></v>
+<v t="leo.20170427203520.1"><vh>@edit 2205.md </vh></v>
+<v t="leo.20170427211810.1"><vh>@edit 2206.md </vh></v>
 </v>
 </v>
 <v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
