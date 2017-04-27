@@ -8,35 +8,73 @@
 5.fossil open ./../fossil檔 .................        開啟上一個資料夾的fossil檔&lt;br/&gt;
 6.將要上傳的東西複製進新創之資料夾&lt;br/&gt;
 7.fossil add ..................          加入所有更動&lt;br/&gt;
-8.fossil commit -m "訊息" .................   提交並附帶訊息&lt;br/&gt;&lt;/p&gt;</summary><category term="心得"></category></entry><entry><title>利用 Fossil SCM 管理 mp4 影片檔案</title><link href="./li-yong-fossil-scm-guan-li-mp4-ying-pian-dang-an.html" rel="alternate"></link><published>2017-04-15T12:00:00+08:00</published><updated>2017-04-15T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-04-15:./li-yong-fossil-scm-guan-li-mp4-ying-pian-dang-an.html</id><summary type="html">&lt;p&gt;使用fossil clone等功能將mp4檔上傳至遠端fossil scm
+8.fossil commit -m "訊息" .................   提交並附帶訊息&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h1&gt;心得:利用 Fossil SCM 管理 mp4 影片檔案影片的註解。&lt;/h1&gt;</summary><category term="心得"></category></entry><entry><title>利用 Fossil SCM 管理 mp4 影片檔案</title><link href="./li-yong-fossil-scm-guan-li-mp4-ying-pian-dang-an.html" rel="alternate"></link><published>2017-04-15T12:00:00+08:00</published><updated>2017-04-15T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-04-15:./li-yong-fossil-scm-guan-li-mp4-ying-pian-dang-an.html</id><summary type="html">&lt;p&gt;使用fossil clone等功能將mp4檔上傳至遠端fossil scm&lt;br/&gt;
  
 &lt;iframe src="https://player.vimeo.com/video/215012605" width="640" height="343" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/215012605"&gt;fossil clone&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="fossil"></category></entry><entry><title>設定ubuntu</title><link href="./she-ding-ubuntu.html" rel="alternate"></link><published>2017-04-15T12:00:00+08:00</published><updated>2017-04-15T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-04-15:./she-ding-ubuntu.html</id><summary type="html">&lt;p&gt;設定ubuntu伺服器版的ipv4網路設定&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/215012605"&gt;fossil clone&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h1&gt;心得:跟github不一樣的上傳方式，雖然都還有add、commit但還是不一樣的感覺。&lt;/h1&gt;</summary><category term="fossil"></category></entry><entry><title>設定ubuntu</title><link href="./she-ding-ubuntu.html" rel="alternate"></link><published>2017-04-15T12:00:00+08:00</published><updated>2017-04-15T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-04-15:./she-ding-ubuntu.html</id><summary type="html">&lt;p&gt;設定ubuntu伺服器版的ipv4網路設定&lt;br/&gt;&lt;/p&gt;
 
 
 &lt;iframe src="https://player.vimeo.com/video/215008028" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/215008028"&gt;set netip&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="ubuntu"></category></entry><entry><title>設定fossil http 指令</title><link href="./she-ding-fossil-http-zhi-ling.html" rel="alternate"></link><published>2017-04-12T12:00:00+08:00</published><updated>2017-04-12T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-04-12:./she-ding-fossil-http-zhi-ling.html</id><summary type="html">&lt;p&gt;設定fossil http 指令的操作影片&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/215008028"&gt;set netip&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h1&gt;心得:因為宿網的關係，爬網翻譯英文，好不容易的成果，但還是怪怪的orz...&lt;/h1&gt;</summary><category term="ubuntu"></category></entry><entry><title>設定fossil http 指令</title><link href="./she-ding-fossil-http-zhi-ling.html" rel="alternate"></link><published>2017-04-12T12:00:00+08:00</published><updated>2017-04-12T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-04-12:./she-ding-fossil-http-zhi-ling.html</id><summary type="html">&lt;p&gt;設定fossil http 指令的操作影片&lt;br/&gt;&lt;/p&gt;
 
 
 &lt;iframe src="https://player.vimeo.com/video/214970216" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/214970216"&gt;envirnment&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="nginx"></category></entry><entry><title>建立 Fossil SCM Server</title><link href="./jian-li-fossil-scm-server.html" rel="alternate"></link><published>2017-03-26T12:00:00+08:00</published><updated>2017-03-26T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-03-26:./jian-li-fossil-scm-server.html</id><summary type="html">&lt;p&gt;使用stunnel建立fossil scm server&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214970216"&gt;envirnment&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h1&gt;心得:雖然只是照著老師網誌的內容一步一步打，但自真的好多，而且打錯字要改超麻煩的，打字時要很小心。&lt;/h1&gt;</summary><category term="nginx"></category></entry><entry><title>建立 Fossil SCM Server</title><link href="./jian-li-fossil-scm-server.html" rel="alternate"></link><published>2017-03-26T12:00:00+08:00</published><updated>2017-03-26T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-03-26:./jian-li-fossil-scm-server.html</id><summary type="html">&lt;p&gt;使用stunnel建立fossil scm server&lt;br/&gt;&lt;/p&gt;
 
 
 &lt;iframe src="https://player.vimeo.com/video/214970220" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/214970220"&gt;Fossil SCM&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="server"></category></entry><entry><title>安裝 Fossil SCM</title><link href="./an-zhuang-fossil-scm.html" rel="alternate"></link><published>2017-03-19T12:00:00+08:00</published><updated>2017-03-19T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-03-19:./an-zhuang-fossil-scm.html</id><summary type="html">&lt;p&gt;使用Ubuntu桌面版建立 Fossil SCM Server的操作影片&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214970220"&gt;Fossil SCM&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h1&gt;心得:最難的部分，還是因為不熟悉ubuntu系統，一直失敗...殘念，最後還是靠老師建好的vdi檔操作。&lt;/h1&gt;</summary><category term="server"></category></entry><entry><title>安裝 Fossil SCM</title><link href="./an-zhuang-fossil-scm.html" rel="alternate"></link><published>2017-03-19T12:00:00+08:00</published><updated>2017-03-19T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-03-19:./an-zhuang-fossil-scm.html</id><summary type="html">&lt;p&gt;使用Ubuntu桌面版建立 Fossil SCM Server的操作影片&lt;br/&gt;&lt;/p&gt;
 
 
 &lt;iframe src="https://player.vimeo.com/video/214970230" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/214970230"&gt;stunnel4&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="stunnel4"></category></entry><entry><title>建立 nginx</title><link href="./jian-li-nginx.html" rel="alternate"></link><published>2017-03-12T12:00:00+08:00</published><updated>2017-03-12T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-03-12:./jian-li-nginx.html</id><summary type="html">&lt;p&gt;使用Ubuntu桌面版的操作影片&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214970230"&gt;stunnel4&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h1&gt;心得:Ubuntu真是一大挑戰啊，習慣Windows後覺得自己是腦殘QAQ&lt;/h1&gt;</summary><category term="stunnel4"></category></entry><entry><title>建立 nginx</title><link href="./jian-li-nginx.html" rel="alternate"></link><published>2017-03-12T12:00:00+08:00</published><updated>2017-03-12T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-03-12:./jian-li-nginx.html</id><summary type="html">&lt;p&gt;使用Ubuntu桌面版的操作影片&lt;br/&gt;&lt;/p&gt;
 
 
 &lt;iframe src="https://player.vimeo.com/video/214970226" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/214970226"&gt;nginx&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="nginx"></category></entry><entry><title>製作網路線</title><link href="./zhi-zuo-wang-lu-xian.html" rel="alternate"></link><published>2017-03-12T12:00:00+08:00</published><updated>2017-03-12T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-03-12:./zhi-zuo-wang-lu-xian.html</id><summary type="html">&lt;p&gt;製作網路線&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214970226"&gt;nginx&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h1&gt;心得:中途因為宿網的關係有點灰心，不過看到nginx跑出來時 只有一個字  爽!&lt;/h1&gt;</summary><category term="nginx"></category></entry><entry><title>製作網路線</title><link href="./zhi-zuo-wang-lu-xian.html" rel="alternate"></link><published>2017-03-12T12:00:00+08:00</published><updated>2017-03-12T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-03-12:./zhi-zuo-wang-lu-xian.html</id><summary type="html">&lt;p&gt;製作網路線&lt;/p&gt;
 
 
 &lt;p&gt;兩種接頭 &lt;br/&gt;
@@ -51,5 +89,8 @@
 製作方式:&lt;br/&gt;
 剝皮-&amp;gt;內線(不剝皮)依上述兩方法排列-&amp;gt;確定線頭整齊後插入接頭-&amp;gt;確定差至最深-&amp;gt;使用壓軸夾緊接頭&lt;br/&gt;
 &lt;br/&gt;
-心得:&lt;br/&gt;
-測試失敗原因可能是因為內線有剝線，或是線頭沒齊。&lt;br/&gt;&lt;/p&gt;</summary><category term="心得"></category></entry></feed>
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;br/&gt;&lt;/p&gt;
+&lt;h1&gt;心得:&lt;br/&gt;&lt;/h1&gt;
+&lt;p&gt;測試失敗原因可能是因為內線有剝線，或是線頭沒齊。&lt;br/&gt;&lt;/p&gt;</summary><category term="心得"></category></entry></feed>
