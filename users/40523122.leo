@@ -29,22 +29,40 @@
 <v t="amd.20161004095719.2"><vh>封面內容</vh></v>
 </v>
 <v t="yen.20161016023122.1" a="E"><vh>第一頁</vh>
-<v t="yen.20161016023122.2"><vh>第一頁內容</vh></v>
+<v t="leo.20170623010634.1"><vh>第一頁內容</vh></v>
 </v>
 <v t="amd.20161004104820.1" a="E"><vh>第二頁</vh>
-<v t="leo.20170421015127.1"><vh>第二頁內容</vh></v>
+<v t="leo.20170623032009.1"><vh>第二頁內容</vh></v>
 </v>
 <v t="yen.20161016004633.1" a="E"><vh>第三頁</vh>
-<v t="yen.20161016004633.4"><vh>第三頁內容</vh></v>
+<v t="yen.20161016004633.4" a="E"><vh>第三頁-1</vh>
+<v t="leo.20170623035833.1"><vh>第三頁-1內容</vh></v>
+</v>
+<v t="leo.20170623035834.1" a="E"><vh>第三頁-2</vh>
+<v t="leo.20170623035834.2"><vh>第三頁-2內容</vh></v>
+</v>
 </v>
 <v t="yen.20161011122932.1" a="E"><vh>第四頁</vh>
-<v t="yen.20161011122601.1"><vh>第四頁內容</vh></v>
+<v t="yen.20161011122601.1" a="E"><vh>第四頁-1</vh>
+<v t="leo.20170623044158.1"><vh>第四頁-1內容</vh></v>
+</v>
+<v t="leo.20170623044159.1" a="E"><vh>第四頁-2</vh>
+<v t="leo.20170623044159.2"><vh>第四頁-2內容</vh></v>
+</v>
+<v t="leo.20170623045912.1" a="E"><vh>第四頁-3</vh>
+<v t="leo.20170623045912.2"><vh>第四頁-3內容</vh></v>
+</v>
 </v>
 <v t="yen.20161011125115.1" a="E"><vh>第五頁</vh>
 <v t="yen.20161016011920.1"><vh>第五頁內容</vh></v>
 </v>
 <v t="yen.20161011143808.1" a="E"><vh>第六頁</vh>
-<v t="yen.20161011143808.2"><vh>第六頁內容</vh></v>
+<v t="leo.20170623051125.1" a="E"><vh>第六頁-1</vh>
+<v t="yen.20161011143808.2"><vh>第六頁-1內容</vh></v>
+</v>
+<v t="leo.20170623051131.1" a="E"><vh>第六頁-2</vh>
+<v t="leo.20170623051131.2"><vh>第六頁-2內容</vh></v>
+</v>
 </v>
 <v t="yen.20161011145156.1" a="E"><vh>第七頁</vh>
 <v t="yen.20161011145156.2"><vh>第七頁內容</vh></v>
@@ -179,6 +197,7 @@ print("hello")
 <t tx="amd.20160106095324.1"></t>
 <t tx="amd.20160921213353.1"></t>
 <t tx="amd.20161004083800.1">&lt;!doctype html&gt;
+
 &lt;html lang="en"&gt;
 @others
 &lt;/html&gt;
@@ -217,7 +236,8 @@ print("hello")
 &lt;/head&gt;
 
 </t>
-<t tx="amd.20161004083800.5">&lt;body&gt;
+<t tx="amd.20161004083800.5">
+&lt;body&gt;
 @others
 &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/head.min.js"&gt;&lt;/script&gt;
 &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/js/reveal.js"&gt;&lt;/script&gt;
@@ -245,16 +265,18 @@ print("hello")
 &lt;/script&gt;
 &lt;/body&gt;
 </t>
-<t tx="amd.20161004083800.6">&lt;div class="reveal"&gt;
+<t tx="amd.20161004083800.6">
+&lt;div class="reveal"&gt;
 @others
 &lt;/div&gt;
 
 </t>
 <t tx="amd.20161004083800.7">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+&lt;font face="微軟正黑體"&gt;
 &lt;div class="slides"&gt;
 @others
 &lt;/div&gt;
-
+&lt;/font&gt;
 </t>
 <t tx="amd.20161004095719.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -265,9 +287,9 @@ print("hello")
 
 						
 </t>
-<t tx="amd.20161004095719.2">#錦川的計算機程式課程
+<t tx="amd.20161004095719.2">#&lt;font face="微軟正黑體"&gt;錦川的計算機程式課程&lt;/font&gt;
 
-##四設一甲 40523122
+##&lt;font face="微軟正黑體"&gt;四設一甲 40523122&lt;/font&gt;
 &lt;small&gt;
 Created by [40523122](https://github.com/s40523122)
 &lt;/small&gt;
@@ -279,10 +301,9 @@ Created by [40523122](https://github.com/s40523122)
 [小組Fossil SCM倉儲](https://mde2a2.kmol.info/wcmg6/home) &lt;br/&gt;
 
 </t>
-<t tx="amd.20161004104820.1">&lt;/section&gt;
-
+<t tx="amd.20161004104820.1">&lt;section&gt;
 @others
-
+&lt;/section&gt;
 						
 </t>
 <t tx="leo.20151212173315.1"></t>
@@ -395,7 +416,6 @@ DEFAULT_DATE = 'fs'</t>
 <t tx="leo.20170421014941.2"></t>
 <t tx="leo.20170421014941.3"></t>
 <t tx="leo.20170421014941.4"></t>
-<t tx="leo.20170421015127.1"></t>
 <t tx="leo.20170421115328.10">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1005,43 +1025,223 @@ Created by [WCM6](https://github.com/s40523136/2017springwcm_g6)
 [作業倉儲](https://github.com/s40523122/2016fallcp_hw)
 
 </t>
-<t tx="yen.20161011122601.1"></t>
-<t tx="yen.20161011122932.1">&lt;/section&gt;
-
-@others
+<t tx="leo.20170623010634.1">&lt;h2&gt;&lt;font face="微軟正黑體"&gt;學習目標&lt;/font&gt;&lt;/h2&gt;
+&lt;p align="left"&gt;使用Ubuntu系統，並在純ipv6狀態下管理網際內容。&lt;br/&gt;
+&lt;br/&gt;
+期中目標：&lt;br/&gt;
+　　製作網路線分組組裝電腦，安裝設定Ubuntu系統，連接網路並學習使用putty遠端操作電腦。&lt;br/&gt;
+&lt;br/&gt;
+期末目標：&lt;br/&gt;
+　　於小組電腦上架設stunnel與CMsimfly達成網際管理目的。
+&lt;FORM&gt;
+&lt;/p&gt;
 </t>
-<t tx="yen.20161011125115.1">&lt;/section&gt;
+<t tx="leo.20170623032009.1">&lt;h2&gt;&lt;font face="微軟正黑體"&gt;網路線製作&lt;/font&gt;&lt;/h2&gt;
+&lt;p align="left"&gt;
+&lt;br/&gt;
+網路線製作有兩種接頭，分別是&lt;br/&gt;
+T568A&lt;br/&gt;
+&lt;font color="#00ff00"&gt;綠白&lt;/font&gt;	 &lt;font color="#00ff00"&gt;綠&lt;/font&gt;	 &lt;font color="#ff5d00"&gt;橘白&lt;/font&gt; &lt;font color="#0080ff"&gt;藍&lt;/font&gt; &lt;font color="#0080ff"&gt;藍白&lt;/font&gt; &lt;font color="#ff5d00"&gt;橘&lt;/font&gt; &lt;font color="#865521"&gt;棕白&lt;/font&gt; &lt;font color="#865521"&gt;棕&lt;/font&gt;&lt;br/&gt;
+T568B&lt;br/&gt;
+&lt;font color="#ff5d00"&gt;橘白&lt;/font&gt; &lt;font color="#ff5d00"&gt;橘&lt;/font&gt; &lt;font color="#00ff00"&gt;綠白&lt;/font&gt;	 &lt;font color="#0080ff"&gt;藍&lt;/font&gt; &lt;font color="#0080ff"&gt;藍白&lt;/font&gt; &lt;font color="#00ff00"&gt;綠&lt;/font&gt;	 &lt;font color="#865521"&gt;棕白&lt;/font&gt; &lt;font color="#865521"&gt;棕&lt;/font&gt;&lt;br/&gt;
+當線兩端為同接頭時，為網路線，反之則為跳線，用來使兩台電腦連接傳輸。&lt;br/&gt;
+製作方式:&lt;br/&gt;
+剝皮-&gt;內線(不剝皮)依上述兩方法排列-&gt;確定線頭整齊後插入接頭-&gt;確定插至最深-&gt;使用壓軸夾緊接頭&lt;br/&gt;
 
+&lt;FORM&gt;
+&lt;/p&gt;
+</t>
+<t tx="leo.20170623035833.1">  &lt;h2&gt;&lt;font face="微軟正黑體"&gt;建立nginx&lt;/font&gt;&lt;/h2&gt;
+
+使用putty連接上遠端電腦&lt;br&gt;
+
+&lt;blockquote&gt;
+&lt;p align="left"&gt;
+sudo apt update        更新&lt;br&gt;
+sudo apt nginx    安裝nginx&lt;br&gt;
+&lt;FORM&gt;
+&lt;/blockquote&gt;
+
+&lt;/p&gt;
+</t>
+<t tx="leo.20170623035834.1">&lt;section data-markdown&gt;
+&lt;script type="text/template"&gt;
 @others
+&lt;/script&gt;
+ 
+&lt;/section&gt;
+</t>
+<t tx="leo.20170623035834.2">&lt;iframe src="https://player.vimeo.com/video/214970226" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214970226"&gt;nginx&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt; &lt;br/&gt;
+&lt;br/&gt;</t>
+<t tx="leo.20170623044158.1">&lt;br/&gt;&lt;h2&gt;&lt;font face="微軟正黑體"&gt;stunnel安裝設定&lt;/font&gt;&lt;/h2&gt;
 
+&lt;p align="left"&gt;
+sudo apt update............................更新   &lt;br/&gt;
+sudo apt install stunnel4 -y.......安裝stunnel-4   &lt;br/&gt;
+sudo apt install fossil....................安裝fossil &lt;br/&gt;
+sudo vi /etc/environment...........編輯environment設定&lt;br/&gt;
+HTTPS=on&lt;br/&gt;
+sudo vi /etc/default/stunnel4...編輯stunnel4設定&lt;br/&gt;
+ENABLED=1&lt;br/&gt;
+
+
+
+
+
+&lt;FORM&gt;
+
+
+
+
+&lt;/p&gt;
+</t>
+<t tx="leo.20170623044159.1">&lt;section data-markdown&gt;
+&lt;script type="text/template"&gt;
+@others
+&lt;/script&gt;
+ 
+&lt;/section&gt;
+</t>
+<t tx="leo.20170623044159.2">
+&lt;p align="left"&gt;
+cd /etc/stunnel..........................................進入/etc/stunnel&lt;br/&gt;
+&lt;br/&gt;
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt.................................................建立.key .crt&lt;br/&gt;
+
+
+&lt;FORM&gt;</t>
+<t tx="leo.20170623045912.1">&lt;section data-markdown&gt;
+&lt;script type="text/template"&gt;
+@others
+&lt;/script&gt;
+ 
+&lt;/section&gt;
+</t>
+<t tx="leo.20170623045912.2">&lt;iframe src="https://player.vimeo.com/video/214970220" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214970220"&gt;Fossil SCM&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;br/&gt;</t>
+<t tx="leo.20170623051125.1">&lt;section data-markdown&gt;
+&lt;script type="text/template"&gt;
+@others
+&lt;/script&gt;
+ 
+&lt;/section&gt;
+</t>
+<t tx="leo.20170623051131.1">&lt;section data-markdown&gt;
+&lt;script type="text/template"&gt;
+@others
+&lt;/script&gt;
+ 
+&lt;/section&gt;
+</t>
+<t tx="leo.20170623051131.2">&lt;p align="left"&gt;
+
+7.fossil add .................. 加入所有更動&lt;br/&gt;
+8.fossil commit -m "訊息" ................. 提交並附帶訊息&lt;br/&gt;
+
+&lt;FORM&gt;
+
+
+
+
+&lt;/p&gt;
+</t>
+<t tx="yen.20161011122601.1">&lt;section data-markdown&gt;
+&lt;script type="text/template"&gt;
+@others
+&lt;/script&gt;
+ 
+&lt;/section&gt;
+</t>
+<t tx="yen.20161011122932.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="yen.20161011125115.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="yen.20161011143808.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="yen.20161011143808.2">&lt;br/&gt;&lt;br/&gt;&lt;h2&gt;&lt;font face="微軟正黑體"&gt;Fossil 提交步驟&lt;/font&gt;&lt;/h2&gt;
+
+
+&lt;p align="left"&gt;
+  
+
+利用 Fossil SCM 管理 mp4 影片檔案的步驟&lt;br/&gt;
+1.fossil clone https://帳號@網址 ................. 下載網站內容並附加帳號資訊 &lt;br/&gt;
+2.打密碼並記住密碼&lt;br/&gt;
+3.mkdir 資料夾名................. 創一個新資料夾&lt;br/&gt;
+4.cd 資料夾名................. 進入剛剛創的資料夾&lt;br/&gt;
+5.fossil open ./../fossil檔 ................. 開啟上一個資料夾的fossil檔&lt;br/&gt;
+6.將要上傳的東西複製進新創之資料夾&lt;br/&gt;
+
+
+
+&lt;FORM&gt;
+
+
+
+
+&lt;/p&gt;
+</t>
+<t tx="yen.20161011145156.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="yen.20161011145156.2">&lt;section data-markdown&gt;
+&lt;script type="text/template"&gt;
+@others
+&lt;/script&gt;
+ 
+&lt;/section&gt;
+</t>
+<t tx="yen.20161016004633.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="yen.20161016004633.4">&lt;section data-markdown&gt;
+&lt;script type="text/template"&gt;
+@others
+&lt;/script&gt;
+ 
+&lt;/section&gt;
+</t>
+<t tx="yen.20161016011920.1">&lt;br/&gt;&lt;h2&gt;&lt;font face="微軟正黑體"&gt;fossil 除錯&lt;/font&gt;&lt;/h2&gt;
+
+&lt;p align="left"&gt;
+  
+ /etc/stunnel建立一個資料夾：&lt;Br/&gt;
+mkdir resiposity&lt;br/&gt;
+cd resiposity&lt;br/&gt;
+fossil init wcm6.fossil...........................建立wcm6.fossil&lt;br/&gt;
+sudo /etc/init.d/stunnel4 restart.............重啟即可
+
+
+
+
+
+
+&lt;FORM&gt;
+
+
+
+
+&lt;/p&gt;
+</t>
+<t tx="yen.20161016012809.1">&lt;section&gt;
+@others
+&lt;/section&gt;</t>
+<t tx="yen.20161016012809.2">&lt;section data-markdown&gt;
+&lt;script type="text/template"&gt;
+@others
+&lt;/script&gt;
+ 
+&lt;/section&gt;
+</t>
+<t tx="yen.20161016023122.1">&lt;section&gt;
+@others
+&lt;/section&gt;
 						
 </t>
-<t tx="yen.20161011143808.1">&lt;/section&gt;
-
-@others
-</t>
-<t tx="yen.20161011143808.2"></t>
-<t tx="yen.20161011145156.1">&lt;/section&gt;
-
-@others
-</t>
-<t tx="yen.20161011145156.2"></t>
-<t tx="yen.20161016004633.1">&lt;/section&gt;
-
-@others
-</t>
-<t tx="yen.20161016004633.4"></t>
-<t tx="yen.20161016011920.1"></t>
-<t tx="yen.20161016012809.1">&lt;/section&gt;
-
-@others
-</t>
-<t tx="yen.20161016012809.2"></t>
-<t tx="yen.20161016023122.1">&lt;/section&gt;
-
-@others
-</t>
-<t tx="yen.20161016023122.2"></t>
 <t tx="yen.20161022111056.1">@language python
 import os
 import subprocess

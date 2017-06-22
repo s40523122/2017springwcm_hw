@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -33,15 +34,18 @@
     <![endif]-->
 </head>
 
+
 <body>
+
 <div class="reveal">
 <!-- Any section element inside of this container is displayed as a slide -->
+<font face="微軟正黑體">
 <div class="slides">
 <section data-markdown>
     <script type="text/template">
-#錦川的計算機程式課程
+#<font face="微軟正黑體">錦川的計算機程式課程</font>
 
-##四設一甲 40523122
+##<font face="微軟正黑體">四設一甲 40523122</font>
 <small>
 Created by [40523122](https://github.com/s40523122)
 </small>
@@ -57,28 +61,195 @@ Created by [40523122](https://github.com/s40523122)
 
 
 						
+<section>
+<h2><font face="微軟正黑體">學習目標</font></h2>
+<p align="left">使用Ubuntu系統，並在純ipv6狀態下管理網際內容。<br/>
+<br/>
+期中目標：<br/>
+　　製作網路線分組組裝電腦，安裝設定Ubuntu系統，連接網路並學習使用putty遠端操作電腦。<br/>
+<br/>
+期末目標：<br/>
+　　於小組電腦上架設stunnel與CMsimfly達成網際管理目的。
+<FORM>
+</p>
 </section>
-
-</section>
-
-
 						
+<section>
+<h2><font face="微軟正黑體">網路線製作</font></h2>
+<p align="left">
+<br/>
+網路線製作有兩種接頭，分別是<br/>
+T568A<br/>
+<font color="#00ff00">綠白</font>	 <font color="#00ff00">綠</font>	 <font color="#ff5d00">橘白</font> <font color="#0080ff">藍</font> <font color="#0080ff">藍白</font> <font color="#ff5d00">橘</font> <font color="#865521">棕白</font> <font color="#865521">棕</font><br/>
+T568B<br/>
+<font color="#ff5d00">橘白</font> <font color="#ff5d00">橘</font> <font color="#00ff00">綠白</font>	 <font color="#0080ff">藍</font> <font color="#0080ff">藍白</font> <font color="#00ff00">綠</font>	 <font color="#865521">棕白</font> <font color="#865521">棕</font><br/>
+當線兩端為同接頭時，為網路線，反之則為跳線，用來使兩台電腦連接傳輸。<br/>
+製作方式:<br/>
+剝皮->內線(不剝皮)依上述兩方法排列->確定線頭整齊後插入接頭->確定插至最深->使用壓軸夾緊接頭<br/>
+
+<FORM>
+</p>
 </section>
-
-</section>
-
-</section>
-
-
 						
-</section>
+<section>
+<section data-markdown>
+<script type="text/template">
+  <h2><font face="微軟正黑體">建立nginx</font></h2>
 
-</section>
+使用putty連接上遠端電腦<br>
 
-</section>
+<blockquote>
+<p align="left">
+sudo apt update        更新<br>
+sudo apt nginx    安裝nginx<br>
+<FORM>
+</blockquote>
 
+</p>
+</script>
+ 
+</section>
+<section data-markdown>
+<script type="text/template">
+<iframe src="https://player.vimeo.com/video/214970226" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/214970226">nginx</a> from <a href="https://vimeo.com/user58912544">JJC210</a> on <a href="https://vimeo.com">Vimeo</a>.</p> <br/>
+<br/>
+</script>
+ 
+</section>
+</section>
+<section>
+<section data-markdown>
+<script type="text/template">
+<br/><h2><font face="微軟正黑體">stunnel安裝設定</font></h2>
+
+<p align="left">
+sudo apt update............................更新   <br/>
+sudo apt install stunnel4 -y.......安裝stunnel-4   <br/>
+sudo apt install fossil....................安裝fossil <br/>
+sudo vi /etc/environment...........編輯environment設定<br/>
+HTTPS=on<br/>
+sudo vi /etc/default/stunnel4...編輯stunnel4設定<br/>
+ENABLED=1<br/>
+
+
+
+
+
+<FORM>
+
+
+
+
+</p>
+</script>
+ 
+</section>
+<section data-markdown>
+<script type="text/template">
+
+<p align="left">
+cd /etc/stunnel..........................................進入/etc/stunnel<br/>
+<br/>
+sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt.................................................建立.key .crt<br/>
+
+
+<FORM>
+</script>
+ 
+</section>
+<section data-markdown>
+<script type="text/template">
+<iframe src="https://player.vimeo.com/video/214970220" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/214970220">Fossil SCM</a> from <a href="https://vimeo.com/user58912544">JJC210</a> on <a href="https://vimeo.com">Vimeo</a>.</p><br/>
+</script>
+ 
+</section>
+</section>
+<section>
+<br/><h2><font face="微軟正黑體">fossil 除錯</font></h2>
+
+<p align="left">
+  
+ /etc/stunnel建立一個資料夾：<Br/>
+mkdir resiposity<br/>
+cd resiposity<br/>
+fossil init wcm6.fossil...........................建立wcm6.fossil<br/>
+sudo /etc/init.d/stunnel4 restart.............重啟即可
+
+
+
+
+
+
+<FORM>
+
+
+
+
+</p>
+</section>
+<section>
+<section data-markdown>
+<script type="text/template">
+<br/><br/><h2><font face="微軟正黑體">Fossil 提交步驟</font></h2>
+
+
+<p align="left">
+  
+
+利用 Fossil SCM 管理 mp4 影片檔案的步驟<br/>
+1.fossil clone https://帳號@網址 ................. 下載網站內容並附加帳號資訊 <br/>
+2.打密碼並記住密碼<br/>
+3.mkdir 資料夾名................. 創一個新資料夾<br/>
+4.cd 資料夾名................. 進入剛剛創的資料夾<br/>
+5.fossil open ./../fossil檔 ................. 開啟上一個資料夾的fossil檔<br/>
+6.將要上傳的東西複製進新創之資料夾<br/>
+
+
+
+<FORM>
+
+
+
+
+</p>
+</script>
+ 
+</section>
+<section data-markdown>
+<script type="text/template">
+<p align="left">
+
+7.fossil add .................. 加入所有更動<br/>
+8.fossil commit -m "訊息" ................. 提交並附帶訊息<br/>
+
+<FORM>
+
+
+
+
+</p>
+</script>
+ 
+</section>
+</section>
+<section>
+<section data-markdown>
+<script type="text/template">
+</script>
+ 
+</section>
+</section>
+<section>
+<section data-markdown>
+<script type="text/template">
+</script>
+ 
+</section>
+</section>
 </div>
-
+</font>
 </div>
 
 <script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/head.min.js"></script>
