@@ -68,7 +68,18 @@
 <v t="yen.20161011145156.2"><vh>第七頁內容</vh></v>
 </v>
 <v t="yen.20161016012809.1" a="E"><vh>第八頁</vh>
-<v t="yen.20161016012809.2"><vh>第八頁內容</vh></v>
+<v t="leo.20170623124950.1" a="E"><vh>第八頁-1內容</vh>
+<v t="yen.20161016012809.2"><vh>第八頁-1內容</vh></v>
+</v>
+<v t="leo.20170623124951.1" a="E"><vh>第八頁-2</vh>
+<v t="leo.20170623124951.2"><vh>第八頁-2內容</vh></v>
+</v>
+<v t="leo.20170623124951.3" a="E"><vh>第八頁-3</vh>
+<v t="leo.20170623124952.1"><vh>第八頁-3內容</vh></v>
+</v>
+<v t="leo.20170623125037.1" a="E"><vh>第八頁-4</vh>
+<v t="leo.20170623125037.2"><vh>第八頁-4內容</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -197,7 +208,6 @@ print("hello")
 <t tx="amd.20160106095324.1"></t>
 <t tx="amd.20160921213353.1"></t>
 <t tx="amd.20161004083800.1">&lt;!doctype html&gt;
-
 &lt;html lang="en"&gt;
 @others
 &lt;/html&gt;
@@ -236,8 +246,8 @@ print("hello")
 &lt;/head&gt;
 
 </t>
-<t tx="amd.20161004083800.5">
-&lt;body&gt;
+<t tx="amd.20161004083800.5">&lt;body&gt;
+&lt;body style="background-color:	#444444;"&gt;
 @others
 &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/lib/js/head.min.js"&gt;&lt;/script&gt;
 &lt;script src="https://cad-lab.github.io/cadlab_data/reveal/js/reveal.js"&gt;&lt;/script&gt;
@@ -1033,7 +1043,7 @@ Created by [WCM6](https://github.com/s40523136/2017springwcm_g6)
 &lt;br/&gt;
 期末目標：&lt;br/&gt;
 　　於小組電腦上架設stunnel與CMsimfly達成網際管理目的。
-&lt;FORM&gt;
+
 &lt;/p&gt;
 </t>
 <t tx="leo.20170623032009.1">&lt;h2&gt;&lt;font face="微軟正黑體"&gt;網路線製作&lt;/font&gt;&lt;/h2&gt;
@@ -1041,14 +1051,13 @@ Created by [WCM6](https://github.com/s40523136/2017springwcm_g6)
 &lt;br/&gt;
 網路線製作有兩種接頭，分別是&lt;br/&gt;
 T568A&lt;br/&gt;
-&lt;font color="#00ff00"&gt;綠白&lt;/font&gt;	 &lt;font color="#00ff00"&gt;綠&lt;/font&gt;	 &lt;font color="#ff5d00"&gt;橘白&lt;/font&gt; &lt;font color="#0080ff"&gt;藍&lt;/font&gt; &lt;font color="#0080ff"&gt;藍白&lt;/font&gt; &lt;font color="#ff5d00"&gt;橘&lt;/font&gt; &lt;font color="#865521"&gt;棕白&lt;/font&gt; &lt;font color="#865521"&gt;棕&lt;/font&gt;&lt;br/&gt;
+&lt;font color="#00ff00"&gt;綠白&lt;/font&gt;	 &lt;font color="#00ff00"&gt;綠&lt;/font&gt;	 &lt;font color="#FF5511"&gt;橘白&lt;/font&gt; &lt;font color="#0080ff"&gt;藍&lt;/font&gt; &lt;font color="#0080ff"&gt;藍白&lt;/font&gt; &lt;font color="#FF5511"&gt;橘&lt;/font&gt; &lt;font color="#BB5500"&gt;棕白&lt;/font&gt; &lt;font color="#BB5500"&gt;棕&lt;/font&gt;&lt;br/&gt;
 T568B&lt;br/&gt;
-&lt;font color="#ff5d00"&gt;橘白&lt;/font&gt; &lt;font color="#ff5d00"&gt;橘&lt;/font&gt; &lt;font color="#00ff00"&gt;綠白&lt;/font&gt;	 &lt;font color="#0080ff"&gt;藍&lt;/font&gt; &lt;font color="#0080ff"&gt;藍白&lt;/font&gt; &lt;font color="#00ff00"&gt;綠&lt;/font&gt;	 &lt;font color="#865521"&gt;棕白&lt;/font&gt; &lt;font color="#865521"&gt;棕&lt;/font&gt;&lt;br/&gt;
+&lt;font color="#FF5511"&gt;橘白&lt;/font&gt; &lt;font color="#FF5511"&gt;橘&lt;/font&gt; &lt;font color="#00ff00"&gt;綠白&lt;/font&gt;	 &lt;font color="#0080ff"&gt;藍&lt;/font&gt; &lt;font color="#0080ff"&gt;藍白&lt;/font&gt; &lt;font color="#00ff00"&gt;綠&lt;/font&gt;	 &lt;font color="#BB5500"&gt;棕白&lt;/font&gt; &lt;font color="#BB5500"&gt;棕&lt;/font&gt;&lt;br/&gt;
 當線兩端為同接頭時，為網路線，反之則為跳線，用來使兩台電腦連接傳輸。&lt;br/&gt;
 製作方式:&lt;br/&gt;
 剝皮-&gt;內線(不剝皮)依上述兩方法排列-&gt;確定線頭整齊後插入接頭-&gt;確定插至最深-&gt;使用壓軸夾緊接頭&lt;br/&gt;
 
-&lt;FORM&gt;
 &lt;/p&gt;
 </t>
 <t tx="leo.20170623035833.1">  &lt;h2&gt;&lt;font face="微軟正黑體"&gt;建立nginx&lt;/font&gt;&lt;/h2&gt;
@@ -1059,7 +1068,7 @@ T568B&lt;br/&gt;
 &lt;p align="left"&gt;
 sudo apt update        更新&lt;br&gt;
 sudo apt nginx    安裝nginx&lt;br&gt;
-&lt;FORM&gt;
+
 &lt;/blockquote&gt;
 
 &lt;/p&gt;
@@ -1074,7 +1083,7 @@ sudo apt nginx    安裝nginx&lt;br&gt;
 <t tx="leo.20170623035834.2">&lt;iframe src="https://player.vimeo.com/video/214970226" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/214970226"&gt;nginx&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt; &lt;br/&gt;
 &lt;br/&gt;</t>
-<t tx="leo.20170623044158.1">&lt;br/&gt;&lt;h2&gt;&lt;font face="微軟正黑體"&gt;stunnel安裝設定&lt;/font&gt;&lt;/h2&gt;
+<t tx="leo.20170623044158.1">&lt;h2&gt;&lt;font face="微軟正黑體"&gt;stunnel安裝設定&lt;/font&gt;&lt;/h2&gt;
 
 &lt;p align="left"&gt;
 sudo apt update............................更新   &lt;br/&gt;
@@ -1089,7 +1098,7 @@ ENABLED=1&lt;br/&gt;
 
 
 
-&lt;FORM&gt;
+
 
 
 
@@ -1110,7 +1119,7 @@ cd /etc/stunnel..........................................進入/etc/stunnel&lt;b
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt.................................................建立.key .crt&lt;br/&gt;
 
 
-&lt;FORM&gt;</t>
+</t>
 <t tx="leo.20170623045912.1">&lt;section data-markdown&gt;
 &lt;script type="text/template"&gt;
 @others
@@ -1139,13 +1148,47 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -
 7.fossil add .................. 加入所有更動&lt;br/&gt;
 8.fossil commit -m "訊息" ................. 提交並附帶訊息&lt;br/&gt;
 
-&lt;FORM&gt;
+
 
 
 
 
 &lt;/p&gt;
 </t>
+<t tx="leo.20170623124950.1">&lt;section data-markdown&gt;
+&lt;script type="text/template"&gt;
+@others
+&lt;/script&gt;
+ 
+&lt;/section&gt;</t>
+<t tx="leo.20170623124951.1">&lt;section data-markdown&gt;
+&lt;script type="text/template"&gt;
+@others
+&lt;/script&gt;
+ 
+&lt;/section&gt;</t>
+<t tx="leo.20170623124951.2">&lt;iframe src="https://player.vimeo.com/video/214970220" width="640
+" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214970220"&gt;Fossil SCM&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;br/&gt;
+&lt;br/&gt;</t>
+<t tx="leo.20170623124951.3">&lt;section data-markdown&gt;
+&lt;script type="text/template"&gt;
+@others
+&lt;/script&gt;
+ 
+&lt;/section&gt;</t>
+<t tx="leo.20170623124952.1">&lt;iframe src="https://player.vimeo.com/video/214970216" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214970216"&gt;envirnment&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;br/&gt;
+&lt;br/&gt;</t>
+<t tx="leo.20170623125037.1">&lt;section data-markdown&gt;
+&lt;script type="text/template"&gt;
+@others
+&lt;/script&gt;
+ 
+&lt;/section&gt;</t>
+<t tx="leo.20170623125037.2">&lt;iframe src="https://player.vimeo.com/video/215008028" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/215008028"&gt;set netip&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;br/&gt;
+&lt;br/&gt;</t>
 <t tx="yen.20161011122601.1">&lt;section data-markdown&gt;
 &lt;script type="text/template"&gt;
 @others
@@ -1162,7 +1205,7 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -
 <t tx="yen.20161011143808.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
-<t tx="yen.20161011143808.2">&lt;br/&gt;&lt;br/&gt;&lt;h2&gt;&lt;font face="微軟正黑體"&gt;Fossil 提交步驟&lt;/font&gt;&lt;/h2&gt;
+<t tx="yen.20161011143808.2">&lt;h2&gt;&lt;font face="微軟正黑體"&gt;Fossil 提交步驟&lt;/font&gt;&lt;/h2&gt;
 
 
 &lt;p align="left"&gt;
@@ -1178,7 +1221,7 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -
 
 
 
-&lt;FORM&gt;
+
 
 
 
@@ -1188,12 +1231,27 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -
 <t tx="yen.20161011145156.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
-<t tx="yen.20161011145156.2">&lt;section data-markdown&gt;
-&lt;script type="text/template"&gt;
-@others
-&lt;/script&gt;
- 
-&lt;/section&gt;
+<t tx="yen.20161011145156.2">&lt;h2&gt;&lt;font face="微軟正黑體"&gt;筆記&lt;/font&gt;&lt;/h2&gt;&lt;br/&gt;
+
+&lt;p align="left"&gt;
+網路：&lt;br/&gt;
+中華電信ipv6：2001:b000:168::1&lt;br/&gt;
+學校ipv6：2001:288:6004:1::2&lt;br/&gt;
+系上ipv4：140.130.17.17/(87)&lt;br/&gt;
+&lt;br/&gt;
+proxy設定：&lt;br/&gt;
+140.130.17.17:3128：&lt;br/&gt;
+&lt;br/&gt;
+putty注意事項：&lt;br/&gt;
+點選HTTP &lt;br/&gt;
+更改proxy&lt;br/&gt;
+  
+  
+
+
+
+
+&lt;/p&gt;
 </t>
 <t tx="yen.20161016004633.1">&lt;section&gt;
 @others
@@ -1205,7 +1263,7 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -
  
 &lt;/section&gt;
 </t>
-<t tx="yen.20161016011920.1">&lt;br/&gt;&lt;h2&gt;&lt;font face="微軟正黑體"&gt;fossil 除錯&lt;/font&gt;&lt;/h2&gt;
+<t tx="yen.20161016011920.1">&lt;h2&gt;&lt;font face="微軟正黑體"&gt;fossil 除錯&lt;/font&gt;&lt;/h2&gt;
 
 &lt;p align="left"&gt;
   
@@ -1220,7 +1278,7 @@ sudo /etc/init.d/stunnel4 restart.............重啟即可
 
 
 
-&lt;FORM&gt;
+
 
 
 
@@ -1230,12 +1288,11 @@ sudo /etc/init.d/stunnel4 restart.............重啟即可
 <t tx="yen.20161016012809.1">&lt;section&gt;
 @others
 &lt;/section&gt;</t>
-<t tx="yen.20161016012809.2">&lt;section data-markdown&gt;
-&lt;script type="text/template"&gt;
-@others
-&lt;/script&gt;
- 
-&lt;/section&gt;
+<t tx="yen.20161016012809.2">&lt;h2&gt; 其他操作影片    &lt;/h2&gt;
+&lt;iframe src="https://player.vimeo.com/video/214970230" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/214970230"&gt;stunnel4&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;br/&gt;
+
+
 </t>
 <t tx="yen.20161016023122.1">&lt;section&gt;
 @others

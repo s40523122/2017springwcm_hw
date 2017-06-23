@@ -1,5 +1,4 @@
 <!doctype html>
-
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -34,8 +33,8 @@
     <![endif]-->
 </head>
 
-
 <body>
+<body style="background-color:	#444444;">
 
 <div class="reveal">
 <!-- Any section element inside of this container is displayed as a slide -->
@@ -70,7 +69,7 @@ Created by [40523122](https://github.com/s40523122)
 <br/>
 期末目標：<br/>
 　　於小組電腦上架設stunnel與CMsimfly達成網際管理目的。
-<FORM>
+
 </p>
 </section>
 						
@@ -80,14 +79,13 @@ Created by [40523122](https://github.com/s40523122)
 <br/>
 網路線製作有兩種接頭，分別是<br/>
 T568A<br/>
-<font color="#00ff00">綠白</font>	 <font color="#00ff00">綠</font>	 <font color="#ff5d00">橘白</font> <font color="#0080ff">藍</font> <font color="#0080ff">藍白</font> <font color="#ff5d00">橘</font> <font color="#865521">棕白</font> <font color="#865521">棕</font><br/>
+<font color="#00ff00">綠白</font>	 <font color="#00ff00">綠</font>	 <font color="#FF5511">橘白</font> <font color="#0080ff">藍</font> <font color="#0080ff">藍白</font> <font color="#FF5511">橘</font> <font color="#BB5500">棕白</font> <font color="#BB5500">棕</font><br/>
 T568B<br/>
-<font color="#ff5d00">橘白</font> <font color="#ff5d00">橘</font> <font color="#00ff00">綠白</font>	 <font color="#0080ff">藍</font> <font color="#0080ff">藍白</font> <font color="#00ff00">綠</font>	 <font color="#865521">棕白</font> <font color="#865521">棕</font><br/>
+<font color="#FF5511">橘白</font> <font color="#FF5511">橘</font> <font color="#00ff00">綠白</font>	 <font color="#0080ff">藍</font> <font color="#0080ff">藍白</font> <font color="#00ff00">綠</font>	 <font color="#BB5500">棕白</font> <font color="#BB5500">棕</font><br/>
 當線兩端為同接頭時，為網路線，反之則為跳線，用來使兩台電腦連接傳輸。<br/>
 製作方式:<br/>
 剝皮->內線(不剝皮)依上述兩方法排列->確定線頭整齊後插入接頭->確定插至最深->使用壓軸夾緊接頭<br/>
 
-<FORM>
 </p>
 </section>
 						
@@ -102,7 +100,7 @@ T568B<br/>
 <p align="left">
 sudo apt update        更新<br>
 sudo apt nginx    安裝nginx<br>
-<FORM>
+
 </blockquote>
 
 </p>
@@ -121,7 +119,7 @@ sudo apt nginx    安裝nginx<br>
 <section>
 <section data-markdown>
 <script type="text/template">
-<br/><h2><font face="微軟正黑體">stunnel安裝設定</font></h2>
+<h2><font face="微軟正黑體">stunnel安裝設定</font></h2>
 
 <p align="left">
 sudo apt update............................更新   <br/>
@@ -136,7 +134,7 @@ ENABLED=1<br/>
 
 
 
-<FORM>
+
 
 
 
@@ -154,7 +152,6 @@ cd /etc/stunnel..........................................進入/etc/stunnel<br/>
 sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -out localhost.crt.................................................建立.key .crt<br/>
 
 
-<FORM>
 </script>
  
 </section>
@@ -167,7 +164,7 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -
 </section>
 </section>
 <section>
-<br/><h2><font face="微軟正黑體">fossil 除錯</font></h2>
+<h2><font face="微軟正黑體">fossil 除錯</font></h2>
 
 <p align="left">
   
@@ -182,7 +179,7 @@ sudo /etc/init.d/stunnel4 restart.............重啟即可
 
 
 
-<FORM>
+
 
 
 
@@ -192,7 +189,7 @@ sudo /etc/init.d/stunnel4 restart.............重啟即可
 <section>
 <section data-markdown>
 <script type="text/template">
-<br/><br/><h2><font face="微軟正黑體">Fossil 提交步驟</font></h2>
+<h2><font face="微軟正黑體">Fossil 提交步驟</font></h2>
 
 
 <p align="left">
@@ -208,7 +205,7 @@ sudo /etc/init.d/stunnel4 restart.............重啟即可
 
 
 
-<FORM>
+
 
 
 
@@ -224,7 +221,7 @@ sudo /etc/init.d/stunnel4 restart.............重啟即可
 7.fossil add .................. 加入所有更動<br/>
 8.fossil commit -m "訊息" ................. 提交並附帶訊息<br/>
 
-<FORM>
+
 
 
 
@@ -235,15 +232,61 @@ sudo /etc/init.d/stunnel4 restart.............重啟即可
 </section>
 </section>
 <section>
-<section data-markdown>
-<script type="text/template">
-</script>
- 
-</section>
+<h2><font face="微軟正黑體">筆記</font></h2><br/>
+
+<p align="left">
+網路：<br/>
+中華電信ipv6：2001:b000:168::1<br/>
+學校ipv6：2001:288:6004:1::2<br/>
+系上ipv4：140.130.17.17/(87)<br/>
+<br/>
+proxy設定：<br/>
+140.130.17.17:3128：<br/>
+<br/>
+putty注意事項：<br/>
+點選HTTP <br/>
+更改proxy<br/>
+  
+  
+
+
+
+
+</p>
 </section>
 <section>
 <section data-markdown>
 <script type="text/template">
+<h2> 其他操作影片    </h2>
+<iframe src="https://player.vimeo.com/video/214970230" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/214970230">stunnel4</a> from <a href="https://vimeo.com/user58912544">JJC210</a> on <a href="https://vimeo.com">Vimeo</a>.</p><br/>
+
+
+</script>
+ 
+</section>
+<section data-markdown>
+<script type="text/template">
+<iframe src="https://player.vimeo.com/video/214970220" width="640
+" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/214970220">Fossil SCM</a> from <a href="https://vimeo.com/user58912544">JJC210</a> on <a href="https://vimeo.com">Vimeo</a>.</p><br/>
+<br/>
+</script>
+ 
+</section>
+<section data-markdown>
+<script type="text/template">
+<iframe src="https://player.vimeo.com/video/214970216" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/214970216">envirnment</a> from <a href="https://vimeo.com/user58912544">JJC210</a> on <a href="https://vimeo.com">Vimeo</a>.</p><br/>
+<br/>
+</script>
+ 
+</section>
+<section data-markdown>
+<script type="text/template">
+<iframe src="https://player.vimeo.com/video/215008028" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/215008028">set netip</a> from <a href="https://vimeo.com/user58912544">JJC210</a> on <a href="https://vimeo.com">Vimeo</a>.</p><br/>
+<br/>
 </script>
  
 </section>
