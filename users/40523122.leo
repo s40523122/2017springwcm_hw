@@ -297,7 +297,7 @@ print("hello")
 
 						
 </t>
-<t tx="amd.20161004095719.2">#&lt;font face="微軟正黑體"&gt;錦川的計算機程式課程&lt;/font&gt;
+<t tx="amd.20161004095719.2">#&lt;font face="微軟正黑體"&gt;錦川的網際內容管理課程&lt;/font&gt;
 
 ##&lt;font face="微軟正黑體"&gt;四設一甲 40523122&lt;/font&gt;
 &lt;small&gt;
