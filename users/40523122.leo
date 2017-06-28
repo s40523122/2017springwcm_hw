@@ -82,6 +82,10 @@
 </v>
 </v>
 </v>
+<v t="leo.20170629005047.1"><vh>newHeadline</vh></v>
+<v t="leo.20170629005048.1"><vh>newHeadline</vh></v>
+<v t="leo.20170629005049.1"><vh>newHeadline</vh></v>
+<v t="leo.20170629005049.2"><vh>newHeadline</vh></v>
 </v>
 </v>
 </v>
@@ -108,6 +112,7 @@
 <v t="leo.20170427203520.1"><vh>@edit 2205.md </vh></v>
 <v t="leo.20170427211810.1"><vh>@edit 2206.md </vh></v>
 <v t="leo.20170427223528.1"><vh>@edit 2207.md </vh></v>
+<v t="leo.20170629010940.1"><vh>@edit 2208.md </vh></v>
 </v>
 </v>
 <v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
@@ -170,6 +175,12 @@
 <v t="leo.20170427034635.3"><vh>Recovered node "封面內容" from @clean index.html</vh>
 <v t="leo.20170427034635.4"><vh>old:封面內容</vh></v>
 <v t="leo.20170427034635.5"><vh>new:封面內容</vh></v>
+</v>
+</v>
+<v t="leo.20170629004639.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20170629004639.2"><vh>Recovered node "封面內容" from @clean index.html</vh>
+<v t="leo.20170629004639.3"><vh>old:封面內容</vh></v>
+<v t="leo.20170629004639.4"><vh>new:封面內容</vh></v>
 </v>
 </v>
 </vnodes>
@@ -1064,12 +1075,13 @@ T568B&lt;br/&gt;
 
 使用putty連接上遠端電腦&lt;br&gt;
 
-&lt;blockquote&gt;
-&lt;p align="left"&gt;
-sudo apt update        更新&lt;br&gt;
-sudo apt nginx    安裝nginx&lt;br&gt;
 
-&lt;/blockquote&gt;
+&lt;pre&gt;
+&lt;p align="left"&gt;
+sudo apt update ........更新&lt;br&gt;
+sudo apt nginx...........安裝nginx&lt;br&gt;
+&lt;/pre&gt;
+
 
 &lt;/p&gt;
 </t>
@@ -1082,18 +1094,19 @@ sudo apt nginx    安裝nginx&lt;br&gt;
 </t>
 <t tx="leo.20170623035834.2">&lt;iframe src="https://player.vimeo.com/video/214970226" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/214970226"&gt;nginx&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt; &lt;br/&gt;
-&lt;br/&gt;</t>
+&lt;br/&gt;
+</t>
 <t tx="leo.20170623044158.1">&lt;h2&gt;&lt;font face="微軟正黑體"&gt;stunnel安裝設定&lt;/font&gt;&lt;/h2&gt;
-
+&lt;pre&gt;
 &lt;p align="left"&gt;
-sudo apt update............................更新   &lt;br/&gt;
-sudo apt install stunnel4 -y.......安裝stunnel-4   &lt;br/&gt;
-sudo apt install fossil....................安裝fossil &lt;br/&gt;
-sudo vi /etc/environment...........編輯environment設定&lt;br/&gt;
+sudo apt update ............................更新   &lt;br/&gt;
+sudo apt install stunnel4 -y .......安裝stunnel-4   &lt;br/&gt;
+sudo apt install fossil ....................安裝fossil &lt;br/&gt;
+sudo vi /etc/environment ...........編輯environment設定&lt;br/&gt;
 HTTPS=on&lt;br/&gt;
-sudo vi /etc/default/stunnel4...編輯stunnel4設定&lt;br/&gt;
+sudo vi /etc/default/stunnel4 ...編輯stunnel4設定&lt;br/&gt;
 ENABLED=1&lt;br/&gt;
-
+&lt;/pre&gt;
 
 
 
@@ -1128,7 +1141,8 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -
 &lt;/section&gt;
 </t>
 <t tx="leo.20170623045912.2">&lt;iframe src="https://player.vimeo.com/video/214970220" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/214970220"&gt;Fossil SCM&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;br/&gt;</t>
+&lt;p&gt;&lt;a href="https://vimeo.com/214970220"&gt;Fossil SCM&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;br/&gt;
+</t>
 <t tx="leo.20170623051125.1">&lt;section data-markdown&gt;
 &lt;script type="text/template"&gt;
 @others
@@ -1160,35 +1174,94 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -
 @others
 &lt;/script&gt;
  
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20170623124951.1">&lt;section data-markdown&gt;
 &lt;script type="text/template"&gt;
 @others
 &lt;/script&gt;
  
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20170623124951.2">&lt;iframe src="https://player.vimeo.com/video/214970220" width="640
 " height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/214970220"&gt;Fossil SCM&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;br/&gt;
-&lt;br/&gt;</t>
+&lt;br/&gt;
+</t>
 <t tx="leo.20170623124951.3">&lt;section data-markdown&gt;
 &lt;script type="text/template"&gt;
 @others
 &lt;/script&gt;
  
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20170623124952.1">&lt;iframe src="https://player.vimeo.com/video/214970216" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/214970216"&gt;envirnment&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;br/&gt;
-&lt;br/&gt;</t>
+&lt;br/&gt;
+</t>
 <t tx="leo.20170623125037.1">&lt;section data-markdown&gt;
 &lt;script type="text/template"&gt;
 @others
 &lt;/script&gt;
  
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="leo.20170623125037.2">&lt;iframe src="https://player.vimeo.com/video/215008028" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/215008028"&gt;set netip&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;br/&gt;
-&lt;br/&gt;</t>
+&lt;br/&gt;
+</t>
+<t tx="leo.20170629004639.1"></t>
+<t tx="leo.20170629004639.2">(uncached) amd.20161004095719.2
+Diff...
+- #&lt;font face="微軟正黑體"&gt;錦川的網際內容管理課程&lt;/font&gt;
+?                        ^^^^^^
++ #&lt;font face="微軟正黑體"&gt;錦川的計算機程式課程&lt;/font&gt;
+?                        ^^^^^
+  
+  ##&lt;font face="微軟正黑體"&gt;四設一甲 40523122&lt;/font&gt;
+  &lt;small&gt;
+  Created by [40523122](https://github.com/s40523122)
+  &lt;/small&gt;
+  
+  [Blog](blog/index.html)&lt;br/&gt;
+  [Wiki](https://github.com/s40523122/2017springwcm_g6/wiki) &lt;br/&gt;
+  [作業倉儲](https://github.com/s40523122/2017springwcm_hw) &lt;br/&gt;
+  [小組倉儲](https://github.com/s40523122/2017springwcm_g6) &lt;br/&gt;
+  [小組Fossil SCM倉儲](https://mde2a2.kmol.info/wcmg6/home) &lt;br/&gt;
+  
+</t>
+<t tx="leo.20170629004639.3">#&lt;font face="微軟正黑體"&gt;錦川的計算機程式課程&lt;/font&gt;
+
+##&lt;font face="微軟正黑體"&gt;四設一甲 40523122&lt;/font&gt;
+&lt;small&gt;
+Created by [40523122](https://github.com/s40523122)
+&lt;/small&gt;
+
+[Blog](blog/index.html)&lt;br/&gt;
+[Wiki](https://github.com/s40523122/2017springwcm_g6/wiki) &lt;br/&gt;
+[作業倉儲](https://github.com/s40523122/2017springwcm_hw) &lt;br/&gt;
+[小組倉儲](https://github.com/s40523122/2017springwcm_g6) &lt;br/&gt;
+[小組Fossil SCM倉儲](https://mde2a2.kmol.info/wcmg6/home) &lt;br/&gt;
+
+</t>
+<t tx="leo.20170629004639.4">#&lt;font face="微軟正黑體"&gt;錦川的網際內容管理課程&lt;/font&gt;
+
+##&lt;font face="微軟正黑體"&gt;四設一甲 40523122&lt;/font&gt;
+&lt;small&gt;
+Created by [40523122](https://github.com/s40523122)
+&lt;/small&gt;
+
+[Blog](blog/index.html)&lt;br/&gt;
+[Wiki](https://github.com/s40523122/2017springwcm_g6/wiki) &lt;br/&gt;
+[作業倉儲](https://github.com/s40523122/2017springwcm_hw) &lt;br/&gt;
+[小組倉儲](https://github.com/s40523122/2017springwcm_g6) &lt;br/&gt;
+[小組Fossil SCM倉儲](https://mde2a2.kmol.info/wcmg6/home) &lt;br/&gt;
+
+</t>
+<t tx="leo.20170629005047.1"></t>
+<t tx="leo.20170629005048.1"></t>
+<t tx="leo.20170629005049.1"></t>
+<t tx="leo.20170629005049.2"></t>
 <t tx="yen.20161011122601.1">&lt;section data-markdown&gt;
 &lt;script type="text/template"&gt;
 @others
@@ -1198,13 +1271,16 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -
 </t>
 <t tx="yen.20161011122932.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011125115.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011143808.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011143808.2">&lt;h2&gt;&lt;font face="微軟正黑體"&gt;Fossil 提交步驟&lt;/font&gt;&lt;/h2&gt;
 
 
@@ -1230,7 +1306,8 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout localhost.key -
 </t>
 <t tx="yen.20161011145156.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161011145156.2">&lt;h2&gt;&lt;font face="微軟正黑體"&gt;筆記&lt;/font&gt;&lt;/h2&gt;&lt;br/&gt;
 
 &lt;p align="left"&gt;
@@ -1255,7 +1332,8 @@ putty注意事項：&lt;br/&gt;
 </t>
 <t tx="yen.20161016004633.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161016004633.4">&lt;section data-markdown&gt;
 &lt;script type="text/template"&gt;
 @others
@@ -1287,7 +1365,8 @@ sudo /etc/init.d/stunnel4 restart.............重啟即可
 </t>
 <t tx="yen.20161016012809.1">&lt;section&gt;
 @others
-&lt;/section&gt;</t>
+&lt;/section&gt;
+</t>
 <t tx="yen.20161016012809.2">&lt;h2&gt; 其他操作影片    &lt;/h2&gt;
 &lt;iframe src="https://player.vimeo.com/video/214970230" width="640" height="357" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/214970230"&gt;stunnel4&lt;/a&gt; from &lt;a href="https://vimeo.com/user58912544"&gt;JJC210&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;br/&gt;
