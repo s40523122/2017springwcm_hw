@@ -5,29 +5,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-06-29T04:10:33-00:00</lastmod>
+<lastmod>2017-06-29T04:25:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-06-29T04:10:33-00:00</lastmod>
+<lastmod>2017-06-29T04:25:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-06-29T04:10:33-00:00</lastmod>
+<lastmod>2017-06-29T04:25:04-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-06-29T04:10:33-00:00</lastmod>
+<lastmod>2017-06-29T04:25:04-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./fossil-bu-chong.html</loc>
+<lastmod>2017-05-18T13:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -103,7 +110,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/bi-ji.html</loc>
-<lastmod>2017-05-17T13:00:00+08:06</lastmod>
+<lastmod>2017-05-18T13:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -111,13 +118,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./category/cao-zuo-ying-pian.html</loc>
 <lastmod>2017-04-16T12:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/xin-de.html</loc>
-<lastmod>2017-05-17T13:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -137,8 +137,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/ubuntu.html</loc>
-<lastmod>2017-04-15T12:00:00+08:06</lastmod>
+<loc>./tag/stunnel4.html</loc>
+<lastmod>2017-03-19T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -151,15 +151,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/stunnel4.html</loc>
-<lastmod>2017-03-19T12:00:00+08:06</lastmod>
+<loc>./tag/xin-de.html</loc>
+<lastmod>2017-05-18T13:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/ubuntu.html</loc>
+<lastmod>2017-04-15T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40523122.html</loc>
-<lastmod>2017-05-17T13:00:00+08:06</lastmod>
+<lastmod>2017-05-18T13:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

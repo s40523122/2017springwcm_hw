@@ -115,6 +115,7 @@
 <v t="leo.20170427223528.1"><vh>@edit 2207.md </vh></v>
 <v t="leo.20170629010940.1"><vh>@edit 2208.md </vh></v>
 <v t="leo.20170629021357.1"><vh>@edit 2209.md </vh></v>
+<v t="leo.20170629041629.1"><vh>@edit 2210.md </vh></v>
 </v>
 </v>
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
@@ -1256,11 +1257,8 @@ Created by [40523122](https://github.com/s40523122)
 [小組Fossil SCM倉儲](https://mde2a2.kmol.info/wcmg6/home) &lt;br/&gt;
 
 </t>
-<t tx="leo.20170629005047.1">&lt;section&gt;
-@others
-&lt;/section&gt;
-</t>
-<t tx="leo.20170629005048.1">&lt;img src="picture/error1.png" /&gt;&lt;/p&gt;</t>
+<t tx="leo.20170629005047.1"></t>
+<t tx="leo.20170629005048.1"></t>
 <t tx="leo.20170629005049.1"></t>
 <t tx="leo.20170629005049.2"></t>
 <t tx="yen.20161011122601.1">&lt;section data-markdown&gt;
