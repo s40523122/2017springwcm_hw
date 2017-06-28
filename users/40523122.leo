@@ -81,11 +81,12 @@
 <v t="leo.20170623125037.2"><vh>第八頁-4內容</vh></v>
 </v>
 </v>
-</v>
-<v t="leo.20170629005047.1"><vh>newHeadline</vh></v>
+<v t="leo.20170629005047.1" a="E"><vh>newHeadline</vh>
 <v t="leo.20170629005048.1"><vh>newHeadline</vh></v>
+</v>
 <v t="leo.20170629005049.1"><vh>newHeadline</vh></v>
 <v t="leo.20170629005049.2"><vh>newHeadline</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -103,7 +104,7 @@
 <v t="amd.20151215170350.1"><vh>以下為 content 目錄中的 md 檔案</vh></v>
 <v t="amd.20151216001126.1"><vh>md 檔案範例</vh></v>
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
-<v t="amd.20160106093454.1" a="E"><vh>yen 所寫的網誌文章</vh>
+<v t="amd.20160106093454.1" a="E"><vh>網誌文章</vh>
 <v t="leo.20170427214210.1"><vh>@edit 2200.md </vh></v>
 <v t="leo.20170425224841.1"><vh>@edit 2201.md </vh></v>
 <v t="leo.20170427195527.1"><vh>@edit 2202.md </vh></v>
@@ -113,11 +114,7 @@
 <v t="leo.20170427211810.1"><vh>@edit 2206.md </vh></v>
 <v t="leo.20170427223528.1"><vh>@edit 2207.md </vh></v>
 <v t="leo.20170629010940.1"><vh>@edit 2208.md </vh></v>
-</v>
-</v>
-<v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
-<v t="amd.20160106094829.1" a="E"><vh>yen 所寫的 pages 文章</vh>
-<v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
+<v t="leo.20170629021357.1"><vh>@edit 2209.md </vh></v>
 </v>
 </v>
 <v t="amd.20161004202833.1"><vh>@edit ../README.md</vh></v>
@@ -214,8 +211,6 @@ print("hello")
 
 </t>
 <t tx="amd.20160106093454.1"></t>
-<t tx="amd.20160106094754.1"></t>
-<t tx="amd.20160106094829.1"></t>
 <t tx="amd.20160106095324.1"></t>
 <t tx="amd.20160921213353.1"></t>
 <t tx="amd.20161004083800.1">&lt;!doctype html&gt;
@@ -308,9 +303,9 @@ print("hello")
 
 						
 </t>
-<t tx="amd.20161004095719.2">#&lt;font face="微軟正黑體"&gt;錦川的網際內容管理課程&lt;/font&gt;
+<t tx="amd.20161004095719.2">&lt;h1&gt;&lt;font face="微軟正黑體" &gt;錦川的網際內容管理課程 &lt;/font&gt;&lt;/h1&gt;
+&lt;h4&gt;&lt;font face="微軟正黑體"&gt;四設一甲 40523122 Wcm6&lt;/h4&gt;
 
-##&lt;font face="微軟正黑體"&gt;四設一甲 40523122&lt;/font&gt;
 &lt;small&gt;
 Created by [40523122](https://github.com/s40523122)
 &lt;/small&gt;
@@ -1049,11 +1044,14 @@ Created by [WCM6](https://github.com/s40523136/2017springwcm_g6)
 <t tx="leo.20170623010634.1">&lt;h2&gt;&lt;font face="微軟正黑體"&gt;學習目標&lt;/font&gt;&lt;/h2&gt;
 &lt;p align="left"&gt;使用Ubuntu系統，並在純ipv6狀態下管理網際內容。&lt;br/&gt;
 &lt;br/&gt;
-期中目標：&lt;br/&gt;
+&lt;font color="#FF0000"&gt;期中目標：&lt;/font&gt;&lt;br/&gt;
 　　製作網路線分組組裝電腦，安裝設定Ubuntu系統，連接網路並學習使用putty遠端操作電腦。&lt;br/&gt;
-&lt;br/&gt;
-期末目標：&lt;br/&gt;
-　　於小組電腦上架設stunnel與CMsimfly達成網際管理目的。
+
+&lt;font color="#FF5511"&gt;期末目標：&lt;/font&gt;&lt;br/&gt;
+　　於小組電腦上架設stunnel與CMsimfly達成網際管理目的。&lt;br/&gt;
+
+&lt;font color="#FF8800"&gt;目前小組進度：&lt;/font&gt;&lt;br/&gt;
+　　已完成進度到fossil架設，正在架設CMsimfly至主機內。&lt;br/&gt;
 
 &lt;/p&gt;
 </t>
@@ -1075,9 +1073,9 @@ T568B&lt;br/&gt;
 
 使用putty連接上遠端電腦&lt;br&gt;
 
-
-&lt;pre&gt;
 &lt;p align="left"&gt;
+&lt;pre&gt;
+
 sudo apt update ........更新&lt;br&gt;
 sudo apt nginx...........安裝nginx&lt;br&gt;
 &lt;/pre&gt;
@@ -1258,8 +1256,11 @@ Created by [40523122](https://github.com/s40523122)
 [小組Fossil SCM倉儲](https://mde2a2.kmol.info/wcmg6/home) &lt;br/&gt;
 
 </t>
-<t tx="leo.20170629005047.1"></t>
-<t tx="leo.20170629005048.1"></t>
+<t tx="leo.20170629005047.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170629005048.1">&lt;img src="picture/error1.png" /&gt;&lt;/p&gt;</t>
 <t tx="leo.20170629005049.1"></t>
 <t tx="leo.20170629005049.2"></t>
 <t tx="yen.20161011122601.1">&lt;section data-markdown&gt;

@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40523122的個人作業Blog</title><link href="./" rel="alternate"></link><link href="./feeds/bi-ji.atom.xml" rel="self"></link><id>./</id><updated>2017-05-16T13:00:00+08:00</updated><entry><title>git push 時 error</title><link href="./git-push-shi-error.html" rel="alternate"></link><published>2017-05-16T13:00:00+08:00</published><updated>2017-05-16T13:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-05-16:./git-push-shi-error.html</id><summary type="html">&lt;p&gt;
-&lt;span class="pic"&gt;&lt;img src="(./../picture/error1.PNG)"width="640" height="480"&gt;&lt;/span&gt;&lt;/p&gt;</summary><category term="心得"></category></entry><entry><title>Fossil SCM 提交步驟</title><link href="./fossil-scm-ti-jiao-bu-zou.html" rel="alternate"></link><published>2017-05-15T13:00:00+08:00</published><updated>2017-05-15T13:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-05-15:./fossil-scm-ti-jiao-bu-zou.html</id><summary type="html">&lt;p&gt;利用 Fossil SCM 管理 mp4 影片檔案的步驟&lt;br/&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40523122的個人作業Blog</title><link href="./" rel="alternate"></link><link href="./feeds/bi-ji.atom.xml" rel="self"></link><id>./</id><updated>2017-05-17T13:00:00+08:00</updated><entry><title>putty設定</title><link href="./puttyshe-ding.html" rel="alternate"></link><published>2017-05-17T13:00:00+08:00</published><updated>2017-05-17T13:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-05-17:./puttyshe-ding.html</id><summary type="html">&lt;p&gt;
+&lt;h3&gt;點選 Session 畫面如圖(1)&lt;br/&gt;
+ &lt;br/&gt;
+&lt;img src="./../picture/putty1.png" /&gt;&lt;/p&gt;
+&lt;p align="center"&gt;(圖1)&lt;/p&gt;
+於Host Name處輸入IP位置，ex:wcm6.kmol.info，Port不用改為22，在Save Session處輸入儲存名稱後儲存。&lt;br/&gt;
+接下來點選Connection 裡的 Proxy 畫面如圖(2)&lt;br/&gt;
+ &lt;br/&gt;
+&lt;img src="./../picture/putty2.png" /&gt;&lt;/p&gt;
+&lt;p align="center"&gt;(圖2)&lt;/p&gt;
+Proxy type處點選HTTP，Proxy hostname 輸入Proxy 主機名稱，ex:proxy.kmol.info
+改成對應之埠號，ex:3128。&lt;/h3&gt;&lt;/p&gt;</summary><category term="心得"></category></entry><entry><title>git push 時 error解決方法</title><link href="./git-push-shi-errorjie-jue-fang-fa.html" rel="alternate"></link><published>2017-05-16T13:00:00+08:00</published><updated>2017-05-16T13:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-05-16:./git-push-shi-errorjie-jue-fang-fa.html</id><summary type="html">&lt;p&gt;列出所有git push 時發生過並解決的問題。
+ 
+&lt;h2&gt;狀況1 ：&lt;/h2&gt;
+&lt;h3&gt;
+若發生與(圖1)相同時:&lt;br/&gt;
+ &lt;br/&gt;
+&lt;img src="./../picture/error1.png" /&gt;&lt;/p&gt;
+&lt;p align="center"&gt;(圖1)&lt;/p&gt;
+解決方法:&lt;br/&gt;
+表示版本不同，所以產生衝突，這時使用 git pull 指令，使近端版本與遠端相同，接著git psush origin就能成功。
+&lt;/h3&gt;
+&lt;br/&gt;
+&lt;h2&gt;狀況2 ：&lt;/h2&gt;
+&lt;h3&gt;
+若blog裡有leo編輯器裡沒有(已刪除)的網誌:&lt;br/&gt;
+解決方法:&lt;br/&gt;
+表示content資料夾裡有問題，因為在leo編輯器裡刪除@edit檔案並不會刪除原檔案，故必須到content資料夾裡手動刪除不需要的資料。&lt;br/&gt;
+&lt;/h3&gt;
+&lt;br/&gt;
+&lt;h2&gt;狀況3 ：&lt;/h2&gt;
+&lt;h3&gt;
+若打開blog時為404:&lt;br/&gt;
+可能原因1:&lt;br/&gt;
+與狀況2同&lt;br/&gt;
+&lt;br/&gt;
+可能原因2:&lt;br/&gt;
+blog資料夾裡有問題，判斷方式為裡面是否有index.html&lt;br/&gt;
+解決方法:&lt;br/&gt;
+將blog資料夾裡所有資料刪除後，到leo編輯器裡重新pelican-blog一次。&lt;br/&gt;
+&lt;br/&gt;
+可能原因3:&lt;br/&gt;
+contend裡的.md檔案Title重複造成錯誤。&lt;br/&gt;
+解決方法:&lt;br/&gt;
+更改Title便可。
+&lt;/h3&gt;
+&lt;br/&gt;
+&lt;h2&gt;狀況4 ：&lt;/h2&gt;
+&lt;h3&gt;
+git add -A時出現(圖2)狀況:&lt;br/&gt;
+&lt;br/&gt;
+&lt;img src="./../picture/error2.png" /&gt;&lt;/p&gt;
+&lt;p align="center"&gt;(圖2)&lt;/p&gt;
+解決方法:&lt;br/&gt;
+暫時忽略，繼續動作。
+&lt;/h3&gt;&lt;/p&gt;</summary><category term="心得"></category></entry><entry><title>Fossil SCM 提交步驟</title><link href="./fossil-scm-ti-jiao-bu-zou.html" rel="alternate"></link><published>2017-05-15T13:00:00+08:00</published><updated>2017-05-15T13:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-05-15:./fossil-scm-ti-jiao-bu-zou.html</id><summary type="html">&lt;p&gt;利用 Fossil SCM 管理 mp4 影片檔案的步驟&lt;br/&gt;
  
 1.fossil clone https://帳號@網址 .................        下載網站內容並附加帳號資訊  &lt;br/&gt;
 2.打密碼並記住密碼&lt;br/&gt;

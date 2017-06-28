@@ -5,34 +5,41 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-06-29T01:23:13-00:00</lastmod>
+<lastmod>2017-06-29T02:45:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-06-29T01:23:13-00:00</lastmod>
+<lastmod>2017-06-29T02:45:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-06-29T01:23:13-00:00</lastmod>
+<lastmod>2017-06-29T02:45:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-06-29T01:23:13-00:00</lastmod>
+<lastmod>2017-06-29T02:45:53-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./git-push-shi-error.html</loc>
+<loc>./puttyshe-ding.html</loc>
+<lastmod>2017-05-17T13:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./git-push-shi-errorjie-jue-fang-fa.html</loc>
 <lastmod>2017-05-16T13:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -96,7 +103,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/bi-ji.html</loc>
-<lastmod>2017-05-16T13:00:00+08:06</lastmod>
+<lastmod>2017-05-17T13:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -104,6 +111,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./category/cao-zuo-ying-pian.html</loc>
 <lastmod>2017-04-16T12:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/xin-de.html</loc>
+<lastmod>2017-05-17T13:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -130,13 +144,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/server.html</loc>
-<lastmod>2017-03-26T12:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>./tag/stunnel4.html</loc>
 <lastmod>2017-03-19T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -144,15 +151,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/xin-de.html</loc>
-<lastmod>2017-05-16T13:00:00+08:06</lastmod>
+<loc>./tag/server.html</loc>
+<lastmod>2017-03-26T12:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40523122.html</loc>
-<lastmod>2017-05-16T13:00:00+08:06</lastmod>
+<lastmod>2017-05-17T13:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
