@@ -1268,8 +1268,8 @@ putty注意事項：&lt;br/&gt;
 &lt;p align="left"&gt;
   
  /etc/stunnel建立一個資料夾：&lt;Br/&gt;
-mkdir resiposity&lt;br/&gt;
-cd resiposity&lt;br/&gt;
+mkdir repository&lt;br/&gt;
+cd repository&lt;br/&gt;
 fossil init wcm6.fossil...........................建立wcm6.fossil&lt;br/&gt;
 sudo /etc/init.d/stunnel4 restart.............重啟即可
 
