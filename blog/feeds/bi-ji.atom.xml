@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>40523122的個人作業Blog</title><link href="./" rel="alternate"></link><link href="./feeds/bi-ji.atom.xml" rel="self"></link><id>./</id><updated>2017-05-17T13:00:00+08:00</updated><entry><title>putty設定</title><link href="./puttyshe-ding.html" rel="alternate"></link><published>2017-05-17T13:00:00+08:00</published><updated>2017-05-17T13:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-05-17:./puttyshe-ding.html</id><summary type="html">&lt;p&gt;
 &lt;h3&gt;點選 Session 畫面如圖(1)&lt;br/&gt;
  &lt;br/&gt;
-&lt;img src="https://raw.githubusercontent.com/s40523122/2017springwcm_hw/gh-pages/picture/putty1.png" /&gt;&lt;/p&gt;
+&lt;img src="https://raw.githubusercontent.com/s40523122/2017springwcm_hw/gh-pages/picture/putty1.PNG" /&gt;&lt;/p&gt;
 &lt;p align="center"&gt;(圖1)&lt;/p&gt;
 於Host Name處輸入IP位置，ex:wcm6.kmol.info，Port不用改為22，在Save Session處輸入儲存名稱後儲存。&lt;br/&gt;
 接下來點選Connection 裡的 Proxy 畫面如圖(2)&lt;br/&gt;
  &lt;br/&gt;
-&lt;img src="https://raw.githubusercontent.com/s40523122/2017springwcm_hw/gh-pages/picture/putty2.png" /&gt;&lt;/p&gt;
+&lt;img src="https://raw.githubusercontent.com/s40523122/2017springwcm_hw/gh-pages/picture/putty2.PNG" /&gt;&lt;/p&gt;
 &lt;p align="center"&gt;(圖2)&lt;/p&gt;
 Proxy type處點選HTTP，Proxy hostname 輸入Proxy 主機名稱，ex:proxy.kmol.info
 改成對應之埠號，ex:3128。&lt;/h3&gt;   &lt;/p&gt;</summary><category term="心得"></category></entry><entry><title>git push 時 error解決方法</title><link href="./git-push-shi-errorjie-jue-fang-fa.html" rel="alternate"></link><published>2017-05-16T13:00:00+08:00</published><updated>2017-05-16T13:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-05-16:./git-push-shi-errorjie-jue-fang-fa.html</id><summary type="html">&lt;p&gt;列出所有git push 時發生過並解決的問題。
@@ -16,7 +16,7 @@ Proxy type處點選HTTP，Proxy hostname 輸入Proxy 主機名稱，ex:proxy.kmo
 &lt;h3&gt;
 若發生與(圖1)相同時:&lt;br/&gt;
  &lt;br/&gt;
-&lt;img src="https://raw.githubusercontent.com/s40523122/2017springwcm_hw/gh-pages/picture/error1.png" /&gt;&lt;/p&gt;
+&lt;img src="https://raw.githubusercontent.com/s40523122/2017springwcm_hw/gh-pages/picture/error1.PNG" /&gt;&lt;/p&gt;
 &lt;p align="center"&gt;(圖1)&lt;/p&gt;
 解決方法:&lt;br/&gt;
 表示版本不同，所以產生衝突，這時使用 git pull 指令，使近端版本與遠端相同，接著git psush origin就能成功。
@@ -50,7 +50,7 @@ contend裡的.md檔案Title重複造成錯誤。&lt;br/&gt;
 &lt;h3&gt;
 git add -A時出現(圖2)狀況:&lt;br/&gt;
 &lt;br/&gt;
-&lt;img src="https://raw.githubusercontent.com/s40523122/2017springwcm_hw/gh-pages/picture/error2.png" /&gt;&lt;/p&gt;
+&lt;img src="https://raw.githubusercontent.com/s40523122/2017springwcm_hw/gh-pages/picture/error2.PNG" /&gt;&lt;/p&gt;
 &lt;p align="center"&gt;(圖2)&lt;/p&gt;
 解決方法:&lt;br/&gt;
 暫時忽略，繼續動作。 
