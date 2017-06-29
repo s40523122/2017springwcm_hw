@@ -77,15 +77,17 @@ git add -A時出現(圖2)狀況:&lt;br/&gt;
 8.fossil commit -m "訊息" .................   提交並附帶訊息&lt;br/&gt;
 &lt;br/&gt;
 &lt;br/&gt;&lt;/p&gt;
-&lt;h1&gt;心得:利用 Fossil SCM 管理 mp4 影片檔案影片的註解。&lt;/h1&gt;</summary><category term="心得"></category></entry><entry><title>製作網路線</title><link href="./zhi-zuo-wang-lu-xian.html" rel="alternate"></link><published>2017-03-12T12:00:00+08:00</published><updated>2017-03-12T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-03-12:./zhi-zuo-wang-lu-xian.html</id><summary type="html">&lt;p&gt;製作網路線&lt;/p&gt;
+&lt;h1&gt;心得:&lt;br/&gt;&lt;/h1&gt;
+&lt;h2&gt;利用 Fossil SCM 管理 mp4 影片檔案影片的註解。&lt;/h2&gt;</summary><category term="心得"></category></entry><entry><title>製作網路線</title><link href="./zhi-zuo-wang-lu-xian.html" rel="alternate"></link><published>2017-03-12T12:00:00+08:00</published><updated>2017-03-12T12:00:00+08:00</updated><author><name>40523122</name></author><id>tag:,2017-03-12:./zhi-zuo-wang-lu-xian.html</id><summary type="html">&lt;p&gt;製作網路線&lt;/p&gt;
 
 
-&lt;p&gt;兩種接頭 &lt;br/&gt;
-標準接線568B:&lt;br/&gt;
-橘白 橘 綠白 藍 藍白 綠 褐白 褐&lt;br/&gt;
-電腦對接568A:&lt;br/&gt;
-綠白 綠 橘白 藍 藍白 橘 褐白 褐&lt;br/&gt;
-  &lt;br/&gt;
+&lt;p&gt;兩種接頭 &lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;網路線製作有兩種接頭，分別是&lt;br/&gt;
+T568A&lt;br/&gt;
+&lt;font color="#00ff00"&gt;綠白&lt;/font&gt;  &lt;font color="#00ff00"&gt;綠&lt;/font&gt;  &lt;font color="#FF5511"&gt;橘白&lt;/font&gt; &lt;font color="#0080ff"&gt;藍&lt;/font&gt; &lt;font color="#0080ff"&gt;藍白&lt;/font&gt; &lt;font color="#FF5511"&gt;橘&lt;/font&gt; &lt;font color="#BB5500"&gt;棕白&lt;/font&gt; &lt;font color="#BB5500"&gt;棕&lt;/font&gt;&lt;br/&gt;
+T568B&lt;br/&gt;
+&lt;font color="#FF5511"&gt;橘白&lt;/font&gt; &lt;font color="#FF5511"&gt;橘&lt;/font&gt; &lt;font color="#00ff00"&gt;綠白&lt;/font&gt;   &lt;font color="#0080ff"&gt;藍&lt;/font&gt; &lt;font color="#0080ff"&gt;藍白&lt;/font&gt; &lt;font color="#00ff00"&gt;綠&lt;/font&gt;   &lt;font color="#BB5500"&gt;棕白&lt;/font&gt; &lt;font color="#BB5500"&gt;棕&lt;/font&gt;&lt;br/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;
 若兩端皆為568B 為網路線&lt;br/&gt;
 若一端為568B另一端為568A 為對接線&lt;br/&gt;
 &lt;br/&gt;
@@ -96,4 +98,4 @@ git add -A時出現(圖2)狀況:&lt;br/&gt;
 &lt;br/&gt;
 &lt;br/&gt;&lt;/p&gt;
 &lt;h1&gt;心得:&lt;br/&gt;&lt;/h1&gt;
-&lt;p&gt;測試失敗原因可能是因為內線有剝線，或是線頭沒齊。&lt;br/&gt;&lt;/p&gt;</summary><category term="心得"></category></entry></feed>
+&lt;h2&gt;測試失敗原因可能是因為內線有剝線，或是線頭沒齊。&lt;br/&gt;&lt;/h2&gt;</summary><category term="心得"></category></entry></feed>
