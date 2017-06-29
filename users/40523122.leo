@@ -81,11 +81,17 @@
 <v t="leo.20170623125037.2"><vh>第八頁-4內容</vh></v>
 </v>
 </v>
-<v t="leo.20170629005047.1" a="E"><vh>newHeadline</vh>
-<v t="leo.20170629005048.1"><vh>newHeadline</vh></v>
+<v t="leo.20170629005047.1" a="E"><vh>第九頁</vh>
+<v t="leo.20170629222403.1" a="E"><vh>第九頁-1</vh>
+<v t="leo.20170629005048.1"><vh>第九頁-1內容</vh></v>
 </v>
-<v t="leo.20170629005049.1"><vh>newHeadline</vh></v>
-<v t="leo.20170629005049.2"><vh>newHeadline</vh></v>
+<v t="leo.20170629222411.1" a="E"><vh>第九頁-2</vh>
+<v t="leo.20170629222416.1"><vh>第九頁-2內容</vh></v>
+</v>
+</v>
+<v t="leo.20170629005049.1" a="E"><vh>第十頁</vh>
+<v t="leo.20170629005049.2"><vh>第十頁內容</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -1258,10 +1264,33 @@ Created by [40523122](https://github.com/s40523122)
 [小組Fossil SCM倉儲](https://mde2a2.kmol.info/wcmg6/home) &lt;br/&gt;
 
 </t>
-<t tx="leo.20170629005047.1"></t>
-<t tx="leo.20170629005048.1"></t>
-<t tx="leo.20170629005049.1"></t>
-<t tx="leo.20170629005049.2"></t>
+<t tx="leo.20170629005047.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170629005048.1">&lt;h3&gt;心得:&lt;/h3&gt;&lt;br/&gt;
+&lt;p align="left"&gt;　　本學習的課為一個新的內容，教我們能建立伺服來達到遠端多人管理的任務。期中前為使用VirtualBox架構虛擬Ubuntu16.04環境，模擬操作過程，期中過後首先我們製作了網路線，接下來將廢棄電腦重新組裝，成為能供我們使用的伺服，然後按照期中前的步驟，使組裝過的電腦安裝Ubuntu並連接網路成為遠端，使用putty連結遠端電腦，讓我們能在任何地方使用自己的電腦操作遠端電腦達到管理作用。&lt;br/&gt;&lt;/p&gt;
+　　</t>
+<t tx="leo.20170629005049.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170629005049.2">&lt;h1&gt;END&lt;/h1&gt;</t>
+<t tx="leo.20170629222403.1">&lt;section data-markdown&gt;
+&lt;script type="text/template"&gt;
+@others
+&lt;/script&gt;
+ 
+&lt;/section&gt;
+</t>
+<t tx="leo.20170629222411.1">&lt;section data-markdown&gt;
+&lt;script type="text/template"&gt;
+@others
+&lt;/script&gt;
+ 
+&lt;/section&gt;
+</t>
+<t tx="leo.20170629222416.1">&lt;p align="left"&gt;　　中途也遇到許多事，其中幾件還蠻多人遇到，所以整理後放在&lt;a href="https://s40523122.github.io/2017springwcm_hw/blog/git-push-shi-errorjie-jue-fang-fa.html"&gt;&lt;font color="#0066FF"&gt;網誌&lt;/font&gt;&lt;/a&gt;裡當作日後參考，雖然大部分都依照老師寫的網誌&lt;a href="http://mde.tw/2017springwcm/blog/2017spring-wcm-midterm.html"&gt;&lt;font color="#0066FF"&gt;http://mde.tw/2017springwcm/blog/2017spring-wcm-midterm.html &lt;/font&gt; &lt;/a&gt;，但中途還是遇到一些問題，所以寫在&lt;a href="https://s40523122.github.io/2017springwcm_hw/blog/fossil-bu-chong.html"&gt;&lt;font color="#0066FF"&gt;補充 &lt;/font&gt;&lt;/a&gt;內，比較可惜的是因為遠端放在ipv6環境下，對於此環境還不熟悉，所以來不及完成CMsimfly的安裝，但至少對於網路和管理有更深的認識了，對於老師說的"你和其他人有什麼不一樣"，我有很深的體悟，或許是因為沒有每個禮拜回推、練習，所以期末才會手足無措，今後當會更加努力面對每一堂課。&lt;/p&gt;</t>
 <t tx="yen.20161011122601.1">&lt;section data-markdown&gt;
 &lt;script type="text/template"&gt;
 @others
